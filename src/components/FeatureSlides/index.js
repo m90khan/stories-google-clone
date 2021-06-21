@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { featureSlides } from '../../data/data';
+import { featureSlides } from './../../data/data';
 import FeatureSlide from './FeatureSlide';
 import { gsap } from 'gsap';
 import { useRef } from 'react';

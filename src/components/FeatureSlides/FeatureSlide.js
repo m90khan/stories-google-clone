@@ -1,6 +1,6 @@
 import React, { useCallback, useRef, useEffect } from 'react';
 import styled from 'styled-components';
-import useOnScreen from '../../hooks/useOnScreen';
+import useOnScreen from './../../hooks/useOnScreen';
 export default function FeatureSlide({ title, description, updateActiveImage, index }) {
   const ref = useRef(null);
   const onScreen = useOnScreen(ref);

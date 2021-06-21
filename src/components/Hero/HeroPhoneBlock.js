@@ -1,5 +1,5 @@
 import React from 'react';
-import imgSrc from '../../assets/hero-phone-frame-v2.png';
+import imgSrc from './../../assets/hero-phone-frame-v2.png';
 import { gsap } from 'gsap';
 import { useRef } from 'react';
 import { useEffect } from 'react';

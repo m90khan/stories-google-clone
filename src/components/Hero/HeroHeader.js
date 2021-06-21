@@ -1,8 +1,6 @@
 import React, { useEffect } from 'react';
 import { gsap } from 'gsap';
-import styled from 'styled-components';
-import { Hide } from '../../styles/styles';
-import { HeroTextContainer } from './../../styles/styles';
+import { HeroTextContainer, Hide } from './../../styles/styles';
 export default function HeroHeader() {
   useEffect(() => {
     gsap.fromTo(

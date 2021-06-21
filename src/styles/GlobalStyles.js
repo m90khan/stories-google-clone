@@ -1,6 +1,5 @@
 // for addin global styles: createGlobalStyle
 import { createGlobalStyle } from 'styled-components';
-import './reset.css';
 
 const GlobalStyle = createGlobalStyle`
 /* @import url("https://fonts.googleapis.com/css?family=Oswald:300;700&display=swap");
@@ -12,9 +11,7 @@ body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Ubuntu, "Helvetica Neue", sans-serif;
 }
-
-
-
+ 
 
 .footer {
   margin-top: 100px;
