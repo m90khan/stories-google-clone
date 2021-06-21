@@ -12,6 +12,7 @@ function RenderImages({ activeFeatureIndex }) {
       className={cn({ 'as-primary': activeFeatureIndex === index })}
       key={imageUrl}
       style={{ backgroundImage: `url(${imageUrl})` }}
+      alt='slider'
     />
   ));
 }

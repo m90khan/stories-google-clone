@@ -21,7 +21,7 @@ function VideoElement({ src }) {
 function ImageElement({ src }) {
   return (
     <HeroElement className='hero-element'>
-      <img src={src} className='collage-element' alt='' />
+      <img src={src} className='collage-element' alt='slider' />
     </HeroElement>
   );
 }
